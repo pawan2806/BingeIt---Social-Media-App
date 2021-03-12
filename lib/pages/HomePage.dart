@@ -103,6 +103,7 @@ class _HomePageState extends State<HomePage> {
   }
   whenPageChanges(int pageIndex){
     setState(() {
+
       this.getPageIndex=pageIndex;
     });
   }
