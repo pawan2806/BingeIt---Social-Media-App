@@ -1,7 +1,7 @@
 # InstaSnap---Social-Media-App
 InstaSnap - Social Media App
-
-A new Flutter application.
+Complete Social Media App for iOS & Android with Firebase storage and Firebase Cloud Messaging for realtime
+Push Notifications.
 
 ## Getting Started
 
