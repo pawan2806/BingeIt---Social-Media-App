@@ -165,7 +165,6 @@ class _UploadPageState extends State<UploadPage> with AutomaticKeepAliveClientMi
       postID=Uuid().v4();
     });
   }
-
   savePostInfoToFireStore(String url, String location, String description){
     postsReference.document(widget.gCurrentUser.id).collection("userPosts").document(postID).setData({
       "postID":postID,
