@@ -19,7 +19,8 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
 
       SnackBar snackBar= SnackBar(content: Text("Welcome " + username));
       //_scaffoldKey.currentState.showSnakeBar(snackBar);
-      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+      //ScaffoldMessenger.of(context).showSnackBar(snackBar);
+      _scaffoldKey.currentState.showSnackBar(snackBar);
       Timer(Duration(seconds: 4), (){
         Navigator.pop(context, username);
       });
