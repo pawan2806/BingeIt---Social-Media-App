@@ -16,6 +16,13 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   final String currentOnlineUserId = currentUser?.id;
 
+  void initState(){
+    super.initState();
+
+
+  }
+
+
 
 
   createProfileTopView(){
@@ -81,7 +88,15 @@ class _ProfilePageState extends State<ProfilePage> {
                   padding: EdgeInsets.only(top: 10.0),
 
                   child: Text(
-                    user.profileName + " ( @"+ user.username + " )", style: TextStyle(fontSize: 16.0, color: Colors.white, fontWeight: FontWeight.bold),
+                    user.profileName + " | @"+ user.username , style: TextStyle(fontSize: 16.0, color: Colors.white, fontWeight: FontWeight.bold),
+                  ),
+                ),
+                Container(
+                  alignment: Alignment.centerLeft,
+                  padding: EdgeInsets.only(top: 3.0),
+
+                  child: Text(
+                    user.bio, style: TextStyle(fontSize: 16.0, color: Colors.white70, fontWeight: FontWeight.bold),
                   ),
                 ),
 
@@ -130,6 +145,7 @@ class _ProfilePageState extends State<ProfilePage> {
     return Container(
       padding: EdgeInsets.only(top: 3.0),
       child: FlatButton(
+        onPressed: performFunction,
         child: Container(
 
           width: MediaQuery.of(context).size.width*0.6,
