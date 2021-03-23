@@ -15,7 +15,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 final GoogleSignIn gSignIn = GoogleSignIn();
 final usersReference=Firestore.instance.collection("users");
-final StorageReference storageRefrence=FirebaseStorage.instance.ref().child('Posts Pictures');
+final StorageReference storageRefrence=FirebaseStorage.instance.ref().child("Posts Pictures");
 final postsReference=Firestore.instance.collection("posts");
 
 

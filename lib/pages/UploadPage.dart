@@ -140,7 +140,7 @@ class _UploadPageState extends State<UploadPage> with AutomaticKeepAliveClientMi
     final tDirectory=await getTemporaryDirectory();
     final path=tDirectory.path;
     InD.Image mImageFile=InD.decodeImage(file.readAsBytesSync());
-    final compressesImageFile=File('$path/img_$postID.jpg')..writeAsBytesSync(InD.encodeJpg(mImageFile, quality: 90));
+    final compressesImageFile=File('$path/img_$postID.jpg')..writeAsBytesSync(InD.encodeJpg(mImageFile, quality: 60));
     setState(() {
 
       file=compressesImageFile;
