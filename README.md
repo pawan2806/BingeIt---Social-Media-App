@@ -3,6 +3,9 @@ InstaSnap - Social Media App
 Complete Social Media App for iOS & Android with Firebase storage and Firebase Cloud Messaging for realtime
 Push Notifications.
 
+
+Features : Most of the features on instagram are cloned.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
