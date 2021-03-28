@@ -4,7 +4,7 @@ Complete Social Media App for iOS & Android with Firebase storage and Firebase C
 Push Notifications.
 
 
-Features : Most of the features on instagram are cloned.
+Features : Most of the features on instagram are cloned including uploading photos , likes, comments, profile, follow/unfollow, in app notifications.
 
 ## Getting Started
 
