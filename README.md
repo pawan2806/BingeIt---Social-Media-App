@@ -6,6 +6,8 @@ Push Notifications.
 
 Features : Most of the features on instagram are cloned including uploading photos , likes, comments, profile, follow/unfollow, in app notifications.
 
+SS : To be added soon.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
