@@ -235,7 +235,7 @@ class _ProfilePageState extends State<ProfilePage> {
     setState(() {
       loading=true;
     });
-    QuerySnapshot querySnapshot = await postsReference.document(widget.userProfileId).collection("userPosts").orderBy("timestamp", descending: true).getDocuments();
+    QuerySnapshot querySnapshot = await postsReference.document(widget.userProfileId).collection("usersPosts").orderBy("timestamp", descending: true).getDocuments();
      setState(() {
        loading=false;
        countPost=querySnapshot.documents.length;

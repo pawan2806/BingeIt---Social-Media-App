@@ -15,8 +15,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 final GoogleSignIn gSignIn = GoogleSignIn();
 final usersReference=Firestore.instance.collection("users");
-final StorageReference storageRefrence=FirebaseStorage.instance.ref().child("Posts Pictures");
+final StorageReference storageReference=FirebaseStorage.instance.ref().child("Posts Pictures");
 final postsReference=Firestore.instance.collection("posts");
+final activityFeedReference=Firestore.instance.collection("feed");
 
 
 
@@ -28,7 +29,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool isSignedIn=false;
+  bool isSignedIn=true;
   int getPageIndex=0;
   PageController pageController;
   void initState(){

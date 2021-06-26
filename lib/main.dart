@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BuddiesGram',
+      title: 'BingeIt',
       debugShowCheckedModeBanner: false,
       theme: ThemeData
       (
