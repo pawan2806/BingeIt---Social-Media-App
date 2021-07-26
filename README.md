@@ -1,12 +1,10 @@
-# InstaSnap---Social-Media-App
-InstaSnap - Social Media App
-Complete Social Media App for iOS & Android with Firebase storage and Firebase Cloud Messaging for realtime
-Push Notifications.
+# BingeIt---Social-Media-App
+BingeIt - Social Media App
+A Social Media App for TV shows/Movie lovers where they can view their friends taste in series and
+movies and discuss about the same. Users can also rate and review tv-shows/movies or add them to
+their watchlist.
 
-
-Features : Most of the features on instagram are cloned including uploading photos , likes, comments, profile, follow/unfollow, in app notifications.
-
-SS : To be added soon.
+SS- To be added soon.
 
 ## Getting Started
 
