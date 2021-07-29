@@ -1,6 +1,7 @@
 import 'package:buddiesgram/pages/HomePage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'screens/home_screen.dart';
 
 void main()
 {

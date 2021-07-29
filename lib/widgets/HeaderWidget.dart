@@ -7,7 +7,7 @@ AppBar header(context, {bool isAppTitle=false, String strTitle, disappearBackBut
     ),
     automaticallyImplyLeading: disappearBackButton?false:true,
     title: Text(
-      isAppTitle?"InstaSnap": strTitle,
+      isAppTitle?"BingeIt": strTitle,
       style: TextStyle(
         color: Colors.white,
         fontFamily: isAppTitle?"Signatra":"",

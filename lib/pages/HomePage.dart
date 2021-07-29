@@ -269,6 +269,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:buddiesgram/screens/home_screen.dart';
 
 
 final GoogleSignIn gSignIn = GoogleSignIn();
@@ -432,8 +433,10 @@ class _HomePageState extends State<HomePage>
       body: PageView(
         children: <Widget>[
           TimeLinePage(gCurrentUser: currentUser,),
+
           SearchPage(),
-          UploadPage(gCurrentUser: currentUser,),
+          HomeScreen(),
+         // UploadPage(gCurrentUser: currentUser,),
           NotificationsPage(),
           ProfilePage(userProfileId: currentUser?.id),
         ],
@@ -449,8 +452,10 @@ class _HomePageState extends State<HomePage>
         inactiveColor: Colors.blueGrey,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home)),
+
           BottomNavigationBarItem(icon: Icon(Icons.search)),
-          BottomNavigationBarItem(icon: Icon(Icons.photo_camera, size: 37.0,)),
+          BottomNavigationBarItem(icon: Icon(Icons.local_movies, size: 37.0,)),
+          //BottomNavigationBarItem(icon: Icon(Icons.photo_camera, size: 37.0,)),
           BottomNavigationBarItem(icon: Icon(Icons.favorite)),
           BottomNavigationBarItem(icon: Icon(Icons.person)),
         ],
@@ -474,9 +479,10 @@ class _HomePageState extends State<HomePage>
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
-              "BuddiesGram",
+              "BingeIt",
               style: TextStyle(fontSize: 92.0, color: Colors.white, fontFamily: "Signatra"),
             ),
+            SizedBox(height: 20.0,),
             GestureDetector(
               onTap: loginUser,
               child: Container(
