@@ -6,22 +6,6 @@ their watchlist.
 
 -------------- Screenshots Below --------------
 
-![solarized vim](https://i.postimg.cc/cL96sRqv/Screenshot-20210812-042124.png)
-
-![solarized vim](https://i.postimg.cc/hv1PNxbP/Screenshot-20210812-042136.png)
-
-![solarized vim](https://i.postimg.cc/hGNjmKtg/Screenshot-20210812-042148.png)
-
-![solarized vim](https://i.postimg.cc/q7NqgN0j/Screenshot-20210812-042156.png)
-
-![solarized vim](https://i.postimg.cc/NFcjNbXz/Screenshot-20210812-042205.png)
-
-![solarized vim](https://i.postimg.cc/4NX3VLsK/Screenshot-20210812-042219.png)
-
-![solarized vim](https://i.postimg.cc/y6mdJ444/Screenshot-20210812-042226.png)
-
-![solarized vim](https://i.postimg.cc/63RQLF8Z/Screenshot-20210812-042302.png)
-
 
 ## Getting Started
 
