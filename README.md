@@ -4,7 +4,6 @@ A Social Media App for TV shows/Movie lovers where they can view their friends t
 movies and discuss about the same. Users can also rate and review tv-shows/movies or add them to
 their watchlist.
 
--------------- Screenshots Below --------------
 
 
 ## Getting Started
