@@ -25,10 +25,9 @@ Whether you're a seasoned film buff or just getting started, BingeIt is the perf
 ---
 
 ## 📸 Screenshots
+![Details](https://pbs.twimg.com/media/FKw4yVPUYAQbaBa?format=jpg&name=large) 
+![bingeit_resized](https://github.com/user-attachments/assets/3f8c8a14-6439-4657-8be8-05b82807289d)  
 
-| App Screenshots |
-|----------------|
-|![Details](https://pbs.twimg.com/media/FKw4yVPUYAQbaBa?format=jpg&name=large) |
 
 ---
 
